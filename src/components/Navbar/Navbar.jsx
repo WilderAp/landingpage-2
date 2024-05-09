@@ -1,13 +1,13 @@
 import useNav from "../../hooks/useNav";
 import MenuMobile from "./MenuMobile";
 import texts from "../../utils/texts.json";
-import { PiCircleDashedBold } from "react-icons/pi";
+import logo from "../../../public/appEaselogo.png";
 import { HiOutlineMenuAlt4 } from "react-icons/hi";
-import { BsJustify, BsXLg } from "react-icons/bs";
+import { BsXLg } from "react-icons/bs";
 import useMediaQuery from "../../hooks/useMediaQuery";
 
 const Navbar = () => {
-  const { isOpen, handleIsOpen, hasScrolled } = useNav();
+  const { isOpen, handleIsOpen } = useNav();
   const isSmallScreen = useMediaQuery("(max-width: 640px)"); // Suponiendo 640px como el breakpoint para móviles
 
   return (
@@ -19,13 +19,13 @@ const Navbar = () => {
       `}
       style={{ backgroundColor: "#FAFAFA" }}
     >
-      <div
+      <a
+        href="/"
         className="font-bold flex items-center gap-4"
         style={{ color: "#272727" }}
       >
-        <PiCircleDashedBold size={35} color="#3030FF" />
-        {texts["section-one"].title}
-      </div>
+        <img src={logo} alt="logo" width={150} />
+      </a>
 
       {/* Renderizar elementos del menú solo si la vista no es móvil */}
       {!isSmallScreen && (

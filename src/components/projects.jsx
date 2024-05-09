@@ -4,7 +4,7 @@ function Projects() {
   return (
     <main className="">
       {/* header */}
-      <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
+      <div className="max-w-3xl mx-auto text-center pb-10 md:pb-10 mt-14">
         <h1 className="text-5xl font-bold mb-7" style={{ color: "#3030FF" }}>
           {texts["section-eight"].title}
         </h1>

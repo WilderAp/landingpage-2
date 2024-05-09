@@ -7,7 +7,11 @@ function Services() {
       {/* 1st Section */}
       <section className="flex">
         <div>
-          <img src={devImg} alt="devImg" width={220} />
+          <img
+            src="https://res.cloudinary.com/db60chvpz/image/upload/v1715285625/EaseTech/hvc7z8uo4osjmjwefr1z.png"
+            alt="devImg"
+            width={220}
+          />
         </div>
 
         <div
@@ -33,7 +37,11 @@ function Services() {
         </div>
 
         <div>
-          <img src={devImg} alt="devImg" width={220} />
+          <img
+            src="https://res.cloudinary.com/db60chvpz/image/upload/v1715285686/EaseTech/tw33hg9ih6rkmup9gbdq.png"
+            alt="devImg"
+            width={220}
+          />
         </div>
       </section>
     </main>

@@ -3,7 +3,7 @@
     "section-one": {
         "header": "",
         "title": "COOL MIND",
-        "bloglink": "/#",
+        "bloglink": "https://appeasetech.blog.niobe.work/",
         "navitems": "",
         "item1": "Home",
         "item2": "about",
@@ -14,42 +14,42 @@
     }, 
     "section-two": { 
         "hero": "",
-        "title": "We help digital product evolve",
-        "body": "We're a branding and web design studio based in Portland, OR. We love playful type, bold colors and joyful experiences. ",
+        "title": "“Build, Simplify, Conquer: Your Technology, Your Way.“",
+        "body": "At AppEaseTech, we are pioneers in simplifying mobile app development. Our passion for technology is combined with a user-centric approach to deliver innovative solutions that transform ideas into tangible applications.",
         "button": "Get Offer",
-        "image": "https://res.cloudinary.com/db60chvpz/image/upload/v1714140733/zuurp7eifgk7k8ct4iml.png"
+        "image": "https://res.cloudinary.com/db60chvpz/image/upload/v1715285369/EaseTech/geojno6prrll2cvocdly.png"
     },
     "section-three": {
         "expertise": "",
         "title": "Special expertise from us",
         "item1": {
             "logo": "",
-            "title": "Website",
-            "body": "We partner with you to create custom websites that convert and leaves the user smiling."
+            "title": "Mission",
+            "body": "Our mission is to democratize the mobile app development process, making it accessible to everyone, from entrepreneurs to large companies. We strive to offer an intuitive and powerful platform that empowers our users to create quality applications without requiring deep technical knowledge."
         },
         "item2": {
             "logo": "",
-            "title": "Marketing Strategic",
-            "body": "We partner with you to create custom websites that convert and leaves the user smiling."
+            "title": "Vision",
+            "body": "We view ourselves as the gold standard in mobile application development, being recognized for our excellence in innovation, usability and customer service. We want to be the preferred option for both those who are taking their first steps in the world of applications and for veterans in the industry."
         },
         "item3": {
             "logo": "",
-            "title": "Mobile Apps",
-            "body": "We partner with you to create custom websites that convert and leaves the user smiling."
+            "title": "What makes us different",
+            "body": "At AppEaseTech, we stand out for our drag and drop platform that greatly simplifies the mobile app development process. Our intuitive interface and powerful tools allow anyone to create stunning applications without the need for programming experience. Additionally, our customer-centric approach drives us to always be at the forefront of technology and offer exceptional support at all times."
         }
     },
     "section-four": {
         "services": "",
-        "title": "Strategic design and engineering for global leading brands",
-        "body": "strategic design and engineering agency with an uncompromised commitment to quality and the generation of true value.",
-        "title2": "Optimaze design and engineering for global leading brands",
-        "body2": "strategic design and engineering agency with an uncompromised commitment to quality and the generation of true value."
+        "title": "Why Trust Us",
+        "body": "Trust us because we have a proven track record of success in the market. Our platform has been used by a wide range of clients, from startups to large corporations, to create successful mobile applications that have reached millions of downloads and generated significant revenue. Plus, our team of experts is committed to your success and will guide you every step of the way.",
+        "title2": "Those who have trusted us",
+        "body2": "Leading companies in various industries have trusted AppEaseTech to bring their ideas to market quickly and efficiently. Our clients range from innovative startups to established brands looking to expand their mobile presence."
     },
     "section-five": {
         "about": "",
         "title": "About Us",
         "subtitle": "29 years of growth",
-        "body": "We are an independent IT consultancy, set up in 1991, operating across Europe with over 700 highly qualified people delivering for our clients every day. Since then, we have been working with clients from many sectors. Retail, engineering, pharmaceutical, real estate, transportation, utilities, financial, are some of them. We are Digital Transformation Specialists who strive to be a partner of choice.",
+        "body": "Do you want to create a mobile application without complications? AppEaseTech makes it possible! Our revolutionary platform allows you to develop applications with drag-and-drop simplicity. Forget about long coding processes and technical barriers. With AppEaseTech, you can bring your mobile ideas to life in minutes. Discover the new era of app development with AppEaseTech.",
         "body2": "",
         "item1": {
             "logo": "",
@@ -127,9 +127,9 @@
         "body": [
             {
                 "id": 1,
-                "picture": "https://res.cloudinary.com/db60chvpz/image/upload/v1714140671/yo83emrxmzlvuhedltul.png",
-                "name": "COOL MIND",
-                "role": "Cool Mind / Project"
+                "picture": "https://res.cloudinary.com/db60chvpz/image/upload/v1715285861/EaseTech/tdzyuf4eqhv7umxhubnn.png",
+                "name": "AppEase Tech",
+                "role": " Project"
             }
             
         ]
