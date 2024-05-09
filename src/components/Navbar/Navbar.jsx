@@ -14,14 +14,14 @@ const Navbar = () => {
     <header
       className={`
         fixed z-[98] top-0 left-0 w-full 
-        px-10 flex justify-start gap-7 items-center  
+        px-20 flex justify-start gap-7 items-center  
         h-[78px]  text-white 
       `}
       style={{ backgroundColor: "#FAFAFA" }}
     >
       <a
         href="/"
-        className="font-bold flex items-center gap-4"
+        className="font-bold flex items-center gap-4 pr-4"
         style={{ color: "#272727" }}
       >
         <img src={logo} alt="logo" width={150} />
