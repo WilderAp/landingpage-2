@@ -54,22 +54,21 @@ const Navbar = () => {
       )}
 
       {/* Renderizar botón de menú solo si la vista no es móvil */}
-      {!isSmallScreen && (
-        <div className="ml-auto">
-          <button>
-            <HiOutlineMenuAlt4 size={35} color="#3030FF" />
-          </button>
-        </div>
-      )}
-
-      {/* Renderizar botón de menú móvil */}
-      <button
-        className="text-2xl cursor-pointer z-[99] text-secondary flex items-center justify-center md:hidden ml-auto"
-        onClick={handleIsOpen}
-      >
-        {isOpen ? <BsXLg color="black" /> : <HiOutlineMenuAlt4 color="black" />}
-      </button>
-      <MenuMobile isOpen={isOpen} onClick={handleIsOpen} />
+      <div className="ml-auto ">
+        <button
+          type="button"
+          className="bg-[#9D9DF9] rounded-full py-2 px-5 text-black font-semibold"
+        >
+          <a
+            href="mailto:appeasae.info@gmail.com"
+            target="_blank"
+            rel="noreferrer"
+            className="px-5 py-2"
+          >
+            Contact
+          </a>
+        </button>
+      </div>
     </header>
   );
 };

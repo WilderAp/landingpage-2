@@ -1,25 +1,24 @@
 import texts from "../../utils/texts.json";
-import { PiCircleDashedBold } from "react-icons/pi";
+import logo from "../../../public/appEaselogo.png";
 
 function Footer() {
   return (
     <footer className="">
       <div className="mx-auto px-4 sm:px-1">
         {/* Top area: Blocks */}
-        <div className="grid  lg:grid-cols-7 gap-8 py-8 md:py-12 border-t border-gray-200 ">
+        <div className="grid  lg:grid-cols-3 gap-8 py-8 md:py-12 border-t border-gray-200 ">
           {/* 1st block */}
           <div
-            className="sm:col-span-2 md:col-span-3 lg:col-span-3 text-start ml-20"
-            style={{ borderRight: "1px solid #3030FF", maxWidth: "600px" }}
+            className="sm:col-span-full md:col-span-full lg:col-span-1 flex flex-col  sm:items-center md:items-center lg:items-start px-7 lg:pl-20 "
+            style={{ borderRight: "1px solid #3030FF" }}
           >
-            <h6
-              className="text-gray-800 font-medium mb-2 expressa flex gap-2 items-center"
+            <span
+              className="text-gray-800  gap-2 items-center"
               style={{ fontSize: "25px" }}
             >
-              <PiCircleDashedBold size={35} color="#3030FF" />
-              {texts["section-seven"].title}
-            </h6>
-            <ul className="text-sm">
+              <img src={logo} alt="logo" width={150} />
+            </span>
+            <ul className="text-sm mt-6">
               <li className="mb-2">
                 <a
                   href="#0"
@@ -49,7 +48,7 @@ function Footer() {
 
           {/* 2nd block */}
           <div
-            className="sm:col-span-2 md:col-span-3 lg:col-span-2 text-center"
+            className="sm:col-span-full md:col-span-full lg:col-span-1 text-center"
             style={{ borderRight: "1px solid #3030FF" }}
           >
             <ul className="text-sm">
@@ -97,7 +96,7 @@ function Footer() {
           </div>
 
           {/* 3rd block */}
-          <div className="sm:col-span-2 md:col-span-3 lg:col-span-1 lg:flex-col flex sm:flex justify-center mx-w-auto gap-5">
+          <div className="sm:col-span-full md:col-span-full lg:col-span-1 lg:flex-col flex sm:flex justify-center mx-w-auto gap-5 place-items-center">
             {/* <div className="sm:col-span-2 md:col-span-3 lg:col-span-1 mx-auto sm:flex sm:justify-center gap-5"> */}
             {/* Social as */}
             <div>

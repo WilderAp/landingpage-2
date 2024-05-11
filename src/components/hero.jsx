@@ -20,13 +20,19 @@ function Hero() {
           <button
             type="button"
             style={{
-              backgroundColor: "#3030FF",
+              backgroundColor: "#4544EF",
               borderRadius: "20px",
               padding: "10px 25px",
               color: "#FFFFFF",
             }}
           >
-            {texts["section-two"].button}
+            <a
+              href="mailto:appease.info@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {texts["section-two"].button}
+            </a>
           </button>
         </div>
       </div>
