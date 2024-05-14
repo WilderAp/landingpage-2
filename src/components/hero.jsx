@@ -3,10 +3,10 @@ import texts from "../utils/texts.json";
 function Hero() {
   return (
     <section className="flex flex-col-reverse items-center justify-center mb-20 md:flex-row">
-      <div className="md:w-1/2 pl-20">
+      <div className="md:w-1/2 lg:pl-20 ">
         <div
           id="title"
-          className="text-center md:text-left text-4xl font-bold mb-5"
+          className="text-center md:text-left text-4xl font-bold mb-5 mt-10 lg:mt-0"
           style={{ maxWidth: "300px" }}
         >
           <h1>{texts["section-two"].title}</h1>

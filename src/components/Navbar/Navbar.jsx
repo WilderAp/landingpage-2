@@ -14,7 +14,7 @@ const Navbar = () => {
     <header
       className={`
         fixed z-[98] top-0 left-0 w-full 
-        px-20 flex justify-start gap-7 items-center  
+        lg:px-20 px-5 flex justify-start gap-7 items-center  
         h-[78px]  text-white 
       `}
       style={{ backgroundColor: "#FAFAFA" }}

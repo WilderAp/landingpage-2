@@ -40,7 +40,7 @@
     },
     "section-four": {
         "services": "",
-        "title": "Why Trust Us",
+        "title": "¿Why Trust Us?",
         "body": "Trust us because we have a proven track record of success in the market. Our platform has been used by a wide range of clients, from startups to large corporations, to create successful mobile applications that have reached millions of downloads and generated significant revenue. Plus, our team of experts is committed to your success and will guide you every step of the way.",
         "title2": "Those who have trusted us",
         "body2": "Leading companies in various industries have trusted AppEaseTech to bring their ideas to market quickly and efficiently. Our clients range from innovative startups to established brands looking to expand their mobile presence."
@@ -93,7 +93,7 @@
     },
     "section-seven": {
         "footer": "",
-        "title": "COOL MIND",
+        "title": "AppEase",
         "section-1": {
             "delivery": "Tech application",
             "email": "At AppEaseTech, we are pioneers in simplifying mobile app development. ",
@@ -123,7 +123,7 @@
     },
     "section-eight": {
         "projects": "",
-        "title": "Our Projects",
+        "title": "Projects",
         "body": [
             {
                 "id": 1,

@@ -11,7 +11,7 @@ function Projects() {
       </div>
 
       {/* Members */}
-      <div className="card card-side bg-base-100 shadow-xl">
+      <div className="flex flex-col lg:card lg:card-side bg-base-100 shadow-xl">
         <figure className="w-200">
           <img
             src="https://res.cloudinary.com/db60chvpz/image/upload/v1715285861/EaseTech/tdzyuf4eqhv7umxhubnn.png"
