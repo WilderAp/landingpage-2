@@ -1,5 +1,5 @@
 import texts from "../../utils/texts.json";
-import logo from "../../../public/appEaselogo.png";
+import logo from "../../../public/techDropLogo.png";
 
 function Footer() {
   return (
@@ -12,13 +12,10 @@ function Footer() {
             className="sm:col-span-full md:col-span-full lg:col-span-1 flex flex-col  sm:items-center md:items-center lg:items-start px-7 lg:pl-20 "
             style={{ borderRight: "1px solid #3030FF" }}
           >
-            <span
-              className="text-gray-800  gap-2 items-center"
-              style={{ fontSize: "25px" }}
-            >
-              <img src={logo} alt="logo" width={150} />
+            <span className=" items-center">
+              <img src={logo} alt="logo" width={250} />
             </span>
-            <ul className="text-sm mt-6">
+            <ul className="text-sm ">
               <li className="mb-2">
                 <a
                   href="#0"
@@ -48,7 +45,7 @@ function Footer() {
 
           {/* 2nd block */}
           <div
-            className="sm:col-span-full md:col-span-full lg:col-span-1 text-center"
+            className="sm:col-span-full md:col-span-full lg:col-span-1 text-center flex items-center justify-center"
             style={{ borderRight: "1px solid #3030FF" }}
           >
             <ul className="text-sm">

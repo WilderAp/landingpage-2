@@ -1,7 +1,7 @@
 import useNav from "../../hooks/useNav";
 import MenuMobile from "./MenuMobile";
 import texts from "../../utils/texts.json";
-import logo from "../../../public/appEaselogo.png";
+import logo from "../../../public/techDropLogo.png";
 import { HiOutlineMenuAlt4 } from "react-icons/hi";
 import { BsXLg } from "react-icons/bs";
 import useMediaQuery from "../../hooks/useMediaQuery";
@@ -24,7 +24,7 @@ const Navbar = () => {
         className="font-bold flex items-center gap-4 pr-4"
         style={{ color: "#272727" }}
       >
-        <img src={logo} alt="logo" width={150} />
+        <img src={logo} alt="logo" width={250} />
       </a>
 
       {/* Renderizar elementos del menú solo si la vista no es móvil */}
@@ -57,7 +57,7 @@ const Navbar = () => {
       <div className="ml-auto ">
         <button
           type="button"
-          className="bg-[#9D9DF9] rounded-full py-2 px-5 text-black font-semibold"
+          className="bg-[#4544EF] rounded-full py-2 px-5 text-white font-semibold"
         >
           <a
             href="mailto:appeasae.info@gmail.com"
